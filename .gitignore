@@ -1,3 +1,7 @@
+<<<<<<< HEAD
+node_modules
+.env
+=======
 
 # Created by https://www.gitignore.io/api/node
 
@@ -46,3 +50,4 @@ jspm_packages
 
 # Output of 'npm pack'
 *.tgz
+>>>>>>> 43611f0c48442813441d8ebd58ea6ff37b9f3157

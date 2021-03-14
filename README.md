@@ -1,2 +1,0 @@
-
-    # device-info-detector

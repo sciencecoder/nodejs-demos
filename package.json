@@ -1,14 +1,29 @@
 {
-  "name": "workspace",
+  "name": "nodejs-demos",
   "version": "1.0.0",
-  "description": ",-----.,--.                  ,--. ,---.   ,--.,------.  ,------.     '  .--./|  | ,---. ,--.,--. ,-|  || o   \\  |  ||  .-.  \\ |  .---'     |  |    |  || .-. ||  ||  |' .-. |`..'  |  |  ||  |  \\  :|  `--,      '  '--'\\|  |' '-' ''  ''  '\\ `-' | .'  /   |  ||  '--'  /|  `---.      `-----'`--' `---'  `----'  `---'  `--'    `--'`-------' `------'     -----------------------------------------------------------------",
-  "main": "program.js",
+  "description": "",
+  "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon index"
   },
-  "author": "Adam Orr",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sciencecoder/nodejs-demos.git"
+  },
+  "author": "",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sciencecoder/nodejs-demos/issues"
+  },
+  "homepage": "https://github.com/sciencecoder/nodejs-demos#readme",
   "dependencies": {
-    "express": "^4.14.0"
+    "device-info-detector": "file:../device-info-detector",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "nodemon": "^2.0.7"
+  },
+  "engines": {
+    "node": "14.x"
   }
 }
