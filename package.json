@@ -21,7 +21,7 @@
   "dependencies": {
     "device-info-detector": "file:../device-info-detector",
     "dotenv": "^8.2.0",
-    "express": "^4.17.1",
+    "express": "^4.18.2",
     "fcc-advanced-node-and-express": "file:../boilerplate-advancednode",
     "nodemon": "^2.0.7"
   },
